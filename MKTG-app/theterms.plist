@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<array>
+		<string>80/20 Rule</string>
+		<string>Advocacy Advertising</string>
+		<string>AdWords</string>
+		<string>Aggregation</string>
+		<string>Ambush Marketing</string>
+		<string>Benchmarking</string>
+		<string>Big Data</string>
+		<string>Blog</string>
+		<string>Blue Ocean Strategy</string>
+		<string>Boutique Agency</string>
+		<string>Brand Adoption Process</string>
+		<string>Brand Ambassadors</string>
+		<string>Brand Capabilities</string>
+		<string>Brand Extension</string>
+		<string>Brand Equity</string>
+		<string>Brand Hijacking</string>
+		<string>Brand Limitations</string>
+		<string>Brand Permission</string>
+		<string>Brand Personality</string>
+		<string>Brand Positioning</string>
+		<string>B-Roll</string>
+		<string>Buzz</string>
+		<string>Cause Marketing</string>
+		<string>Clickthrough</string>
+		<string>Clickthrough Rate (CTR)</string>
+		<string>Competitive Intelligence</string>
+		<string>Contextual Advertising</string>
+		<string>Contingency Planning</string>
+		<string>Co-op</string>
+		<string>Customer Relationship Management (CRM)</string>
+		<string>Crowdsourcing</string>
+		<string>Customer Centricity</string>
+		<string>Customer Experience</string>
+		<string>Customer Insights</string>
+		<string>Customer Lifetime Value</string>
+		<string>Customer Loyalty</string>
+		<string>Customer Relationship</string>
+		<string>Data Mining</string>
+		<string>Digital Assets</string>
+		<string>Digital Billboard</string>
+		<string>Direct Marketing (DM)</string>
+		<string>Early Adopters or Early Adapters</string>
+		<string>Electronic Display Ad</string>
+		<string>Flashmob</string>
+		<string>Foursquare</string>
+		<string>Geo Targeting or Geo Tracking</string>
+		<string>Groupon</string>
+		<string>Guerilla Marketing</string>
+		<string>Hashtags (#)</string>
+		<string>Integrated Marketing Communications (IMC)</string>
+		<string>Impulse Buying</string>
+		<string>In-Kind Sponsorship or Barter Sponsorship</string>
+		<string>Intercept Marketing</string>
+		<string>Interns</string>
+		<string>Integrated Marketing</string>
+		<string>Keyword Marketing</string>
+		<string>Link Farming</string>
+		<string>Living Social</string>
+		<string>Long Tail</string>
+		<string>Market Analysis</string>
+		<string>Market Segmentation</string>
+		<string>Marketing 1.0</string>
+		<string>Marketing 2.0</string>
+		<string>Marketing 3.0</string>
+		<string>Micromarketing or Niche Marketing</string>
+		<string>MMORPG</string>
+		<string>Mobile Marketing</string>
+		<string>MOOCs</string>
+		<string>Niche Marketing</string>
+		<string>One-to-One Marketing</string>
+		<string>Organic Search</string>
+		<string>Permission Marketing</string>
+		<string>Pinterest</string>
+		<string>Pop-Up Ads</string>
+		<string>Positioning</string>
+		<string>Private Label or Generic Brand or Store Brand</string>
+		<string>Product Lifecycle</string>
+		<string>Product Lifestyle</string>
+		<string>Product-Line Pricing</string>
+		<string>Product Placement</string>
+		<string>Purpose-Driven Marketing</string>
+		<string>QR Codes</string>
+		<string>ROI (Marketing)</string>
+		<string>Secondary Data</string>
+		<string>Segmentation</string>
+		<string>Selective Exposure</string>
+		<string>Selective Perception</string>
+		<string>Selective Retention</string>
+		<string>SEM</string>
+		<string>SEO</string>
+		<string>Seven P’s</string>
+		<string>Shopping Bot</string>
+		<string>Simulated Test Marketing</string>
+		<string>Simulation Models</string>
+		<string>SMS Marketing</string>
+		<string>SoLoMo</string>
+		<string>Store Brand</string>
+		<string>Strategic Business Planning</string>
+		<string>Topline</string>
+		<string>Twitter</string>
+		<string>User End Benefit</string>
+		<string>User-Generated Content</string>
+		<string>VNR’s</string>
+		<string>Value Proposition</string>
+		<string>Word of Mouth (WoM)</string>
+		<string>Yelp</string>
+	</array>
+	<key>Definition</key>
+	<array>
+		<string>A truism in marketing that 80% of your business comes from the top 20% of your customers</string>
+		<string>Advertising that promotes a cause (SEE ALSO: Cause Marketing and Purpose Driven Marketing)</string>
+		<string>The term Google uses for Keyword Search (SEE ALSO: Keyword Marketing)</string>
+		<string>Putting together and integrating the disparate elements of a marketing plan or proposition</string>
+		<string>Marketing communication that intercepts a consumer in her life. It&apos;s unexpected and–done well–is positively impactful. (SEE ALSO: Guerilla Marketing)</string>
+		<string>Compare what you do to your industry&apos;s gold standard or the standards in other industries</string>
+		<string>Sets of data that are so huge, they can&apos;t be calculated by using the tools on hand or by simple desktop calculations. (SEE ALSO: Data Mining)</string>
+		<string>A contraction of the words &quot;Web Log.&quot; Any ongoing commentary, diary, entry, report or observation (online)</string>
+		<string>Looking for new customers where your competitors aren&apos;t (SEE ALSO: 80/20 Rule and Long Tail) </string>
+		<string>An agency specializing in one type of advertising or one category of business </string>
+		<string>The experience a customer goes through from product or service awareness to interest, purchase decision and acquisition to satisfaction, repeat and loyalty (SEE ALSO: CRM)</string>
+		<string>People who speak for the brand, extend its benefits and seek to convert others to believers and users (SEE ALSO: Buzz and Guerilla Marketing)</string>
+		<string>What a brand has the credentials to do well (SEE ALSO: Brand Extension, Brand Limitations and Brand Permission)</string>
+		<string>Extending the name of an existing product onto a new product that is consistent with the parent brand (i.e. new flavor or form). (SEE ALSO: Brand Capabilities, Brand Limitations and Brand Permission.)</string>
+		<string>The value a brand builds over time through consistent delivery of quality experiences</string>
+		<string>An individual or group getting hold of any aspect of a brand&apos;s physical, social or digital presence and altering the brand presence or message</string>
+		<string>What a brand doesn&apos;t have the credentials or permission to do or be (SEE ALSO: Brand Capabilities, Brand Extension and Brand Permission)</string>
+		<string>Brand Permission</string>
+		<string>Brand Personality</string>
+		<string>Brand Positioning</string>
+		<string>B-Roll</string>
+		<string>Buzz</string>
+		<string>Cause Marketing</string>
+		<string>Clickthrough</string>
+		<string>Clickthrough Rate (CTR)</string>
+		<string>Competitive Intelligence</string>
+		<string>Contextual Advertising</string>
+		<string>Contingency Planning</string>
+		<string>Co-op</string>
+		<string>Customer Relationship Management (CRM)</string>
+		<string>Crowdsourcing</string>
+		<string>Customer Centricity</string>
+		<string>Customer Experience</string>
+		<string>Customer Insights</string>
+		<string>Customer Lifetime Value</string>
+		<string>Customer Loyalty</string>
+		<string>Customer Relationship</string>
+		<string>Data Mining</string>
+		<string>Digital Assets</string>
+		<string>Digital Billboard</string>
+		<string>Direct Marketing (DM)</string>
+		<string>Early Adopters or Early Adapters</string>
+		<string>Electronic Display Ad</string>
+		<string>Flashmob</string>
+		<string>Foursquare</string>
+		<string>Geo Targeting or Geo Tracking</string>
+		<string>Groupon</string>
+		<string>Guerilla Marketing</string>
+		<string>Hashtags (#)</string>
+		<string>Integrated Marketing Communications (IMC)</string>
+		<string>Impulse Buying</string>
+		<string>In-Kind Sponsorship or Barter Sponsorship</string>
+		<string>Intercept Marketing</string>
+		<string>Interns</string>
+		<string>Integrated Marketing</string>
+		<string>Keyword Marketing</string>
+		<string>Link Farming</string>
+		<string>Living Social</string>
+		<string>Long Tail</string>
+		<string>Market Analysis</string>
+		<string>Market Segmentation</string>
+		<string>Marketing 1.0</string>
+		<string>Marketing 2.0</string>
+		<string>Marketing 3.0</string>
+		<string>Micromarketing or Niche Marketing</string>
+		<string>MMORPG</string>
+		<string>Mobile Marketing</string>
+		<string>MOOCs</string>
+		<string>Niche Marketing</string>
+		<string>One-to-One Marketing</string>
+		<string>Organic Search</string>
+		<string>Permission Marketing</string>
+		<string>Pinterest</string>
+		<string>Pop-Up Ads</string>
+		<string>Positioning</string>
+		<string>Private Label or Generic Brand or Store Brand</string>
+		<string>Product Lifecycle</string>
+		<string>Product Lifestyle</string>
+		<string>Product-Line Pricing</string>
+		<string>Product Placement</string>
+		<string>Purpose-Driven Marketing</string>
+		<string>QR Codes</string>
+		<string>ROI (Marketing)</string>
+		<string>Secondary Data</string>
+		<string>Segmentation</string>
+		<string>Selective Exposure</string>
+		<string>Selective Perception</string>
+		<string>Selective Retention</string>
+		<string>SEM</string>
+		<string>SEO</string>
+		<string>Seven P’s</string>
+		<string>Shopping Bot</string>
+		<string>Simulated Test Marketing</string>
+		<string>Simulation Models</string>
+		<string>SMS Marketing</string>
+		<string>SoLoMo</string>
+		<string>Store Brand</string>
+		<string>Strategic Business Planning</string>
+		<string>Topline</string>
+		<string>Twitter</string>
+		<string>User End Benefit</string>
+		<string>User-Generated Content</string>
+		<string>VNR’s</string>
+		<string>Value Proposition</string>
+		<string>Word of Mouth (WoM)</string>
+		<string>Yelp</string>
+	</array>
+</dict>
+</plist>
