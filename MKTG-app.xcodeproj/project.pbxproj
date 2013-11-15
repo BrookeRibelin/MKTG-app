@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B73E8CC1836A84700289582 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73E8CB1836A84700289582 /* Social.framework */; };
-		3B73E8CE1836A85A00289582 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B73E8CD1836A85A00289582 /* Accounts.framework */; };
 		C9468F031835CDB400240F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F021835CDB400240F3D /* Foundation.framework */; };
 		C9468F051835CDB400240F3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F041835CDB400240F3D /* CoreGraphics.framework */; };
 		C9468F071835CDB400240F3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F061835CDB400240F3D /* UIKit.framework */; };
@@ -41,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B73E8CB1836A84700289582 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		3B73E8CD1836A85A00289582 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C9468EFF1835CDB400240F3D /* MKTG-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKTG-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9468F021835CDB400240F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9468F041835CDB400240F3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,8 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B73E8CE1836A85A00289582 /* Accounts.framework in Frameworks */,
-				3B73E8CC1836A84700289582 /* Social.framework in Frameworks */,
 				C963D0121836715D009CAB4E /* MessageUI.framework in Frameworks */,
 				C9468F051835CDB400240F3D /* CoreGraphics.framework in Frameworks */,
 				C9468F071835CDB400240F3D /* UIKit.framework in Frameworks */,
@@ -121,8 +115,6 @@
 		C9468F011835CDB400240F3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B73E8CD1836A85A00289582 /* Accounts.framework */,
-				3B73E8CB1836A84700289582 /* Social.framework */,
 				C963D0111836715D009CAB4E /* MessageUI.framework */,
 				C9468F021835CDB400240F3D /* Foundation.framework */,
 				C9468F041835CDB400240F3D /* CoreGraphics.framework */,
@@ -229,9 +221,6 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "PS Insights";
 				TargetAttributes = {
-					C9468EFE1835CDB400240F3D = {
-						DevelopmentTeam = 79Z5TDFM5V;
-					};
 					C9468F221835CDB400240F3D = {
 						TestTargetID = C9468EFE1835CDB400240F3D;
 					};
@@ -416,13 +405,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKTG-app/MKTG-app-Prefix.pch";
 				INFOPLIST_FILE = "MKTG-app/MKTG-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,13 +421,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKTG-app/MKTG-app-Prefix.pch";
 				INFOPLIST_FILE = "MKTG-app/MKTG-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
