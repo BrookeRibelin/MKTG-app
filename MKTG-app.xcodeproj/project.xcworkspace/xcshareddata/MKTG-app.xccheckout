@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>887F339F-09A1-4B03-B3EB-1759D05AB820</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MKTG-app</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
+		<string>ssh://github.com/BrookeRibelin/MKTG-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MKTG-app.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/BrookeRibelin/MKTG-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>86236744-5E20-4482-AFD3-7D5D54C52772</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>86236744-5E20-4482-AFD3-7D5D54C52772</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PSinsights</string>
+		</dict>
+	</array>
+</dict>
+</plist>

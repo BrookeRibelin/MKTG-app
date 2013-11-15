@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UIActionSheetDelegate>
 
 @property (strong, nonatomic) NSString *detailLabelContents;
 @property (weak, nonatomic) IBOutlet UILabel *detailLabel;
+- (IBAction)social:(id)sender;
 
 @end
