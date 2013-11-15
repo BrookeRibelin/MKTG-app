@@ -35,7 +35,7 @@
         MFMailComposeViewController *mail = [[MFMailComposeViewController alloc] init];
         mail.mailComposeDelegate = self;
         [mail setSubject:@"What's Missing from MKTG app"];
-        NSArray *toRecipients = [NSArray arrayWithObjects:@"wantfanfics@gmail.com", nil];
+        NSArray *toRecipients = [NSArray arrayWithObjects:@"steve@psinsights.com", nil];
         [mail setToRecipients:toRecipients];
         NSString *emailBody = @"I saw your app and thought...";
         [mail setMessageBody:emailBody isHTML:NO];
@@ -66,6 +66,7 @@
         case MFMailComposeResultSent:
             NSLog(@"Sent");
             break;
+            
         default:
             NSLog(@"default");
             break;
