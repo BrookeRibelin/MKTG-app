@@ -130,6 +130,224 @@
 		<string>The value a brand builds over time through consistent delivery of quality experiences</string>
 		<string>An individual or group getting hold of any aspect of a brand&apos;s physical, social or digital presence and altering the brand presence or message</string>
 		<string>What a brand doesn&apos;t have the credentials or permission to do or be (SEE ALSO: Brand Capabilities, Brand Extension and Brand Permission)</string>
+		<string>Areas a brand can extend itself or promote itself in the minds of its customers. (SEE ALSO: Brand Capabilities, Brand Extension and Brand Limitations)</string>
+		<string>The tone and manner of a brand. The personal and human qualities the brand projects</string>
+		<string>The unique and meaningful high ground niche a brand occupies and can claim as its own that is compelling and motivating to its target audience (SEE ALSO: Brand Permission)</string>
+		<string>Prepared film that is newsworthy and can be plugged into a newscast with intros and outros from newscasters (SEE ALSO: Product Placement and VNRs)</string>
+		<string>The heat behind an idea or initiative that generates interest and talk–word of mouth (SEE ALSO: Brand Ambassadors and Guerilla Marketing)</string>
+		<string>Promoting a cause as an extension of the image of a brand (SEE ALSO: Advocacy Advertising and Purpose Driven Marketing)</string>
+		<string>Clicking on an ad or Web page and being taken to the advertiser's Website or other pre-programmed destination. (SEE ALSO: Clickthrough Rate)</string>
+		<string>A ratio of the number of people who see a Web ad divided by the number of people who click on it. (SEE ALSO: Clickthrough)</string>
+		<string>The method by which companies learn about and actively respond to competitive activities (SEE ALSO: Benchmarking)</string>
+		<string>Advertising that focuses on specific elements of a message providing context to make the message more impactful</string>
+		<string>Alternative planning to be ready to change directions in the marketplace</string>
+		<string>Money provided by a national advertiser that can be shared by their local distributors, retailers or franchisees to augment the local marketing budget</string>
+		<string>Customer Relationship Management. The art of caring for the customer to delight and build brand loyalty</string>
+		<string>Ideas, products or information solicited by a company from the mass population (SEE ALSO: User Generated Content)</string>
+		<string>A marketing orientation that puts the customer first in all things</string>
+		<string>The experience a customer goes through in being involved with a brand (SEE ALSO: Brand Adoption Process and CRM)</string>
+		<string>Going beyond primary and secondary research and demographic analysis to understanding your customer's key motivations</string>
+		<string>The revenue a company can realize by keeping their customers loyal throughout their lives (SEE ALSO: Customer Loyalty)</string>
+		<string>Brand traction earned over time that keeps customers coming back for more instead of opting for a competitor in the category (SEE ALSO: CRM and Customer Lifetime Value)</string>
+		<string>SEE: "CRM"</string>
+		<string>Understanding the value of data in building and assessing marketing programs. The method of identifying, finding and applying data sources to drive a brand or business</string>
+		<string>Owned, earned and bought digital presence that accrues to a brand</string>
+		<string>Advertising displays that are electronic rather than printed</string>
+		<string>One-to-One communication. Reaching out to consumers via mail, online or phone</string>
+		<string>The people who are first to try and first to buy products, trends, entertainment… whatever </string>
+		<string>SEE: Digital Billboard</string>
+		<string>A PR event where seemingly ordinary passers-by suddenly turn into performers as part of a pre-arranged stunt</string>
+		<string>The originator of place-based check-ins online (SEE ALSO: Geo Targeting, Mobile Media and Yelp)</string>
+		<string>Reaching customers in their physical location</string>
+		<string>The biggest online coupon business</string>
+		<string>Engage and delight consumers in their lives when they don't expect it (SEE ALSO: Ambush Marketing, Intercept Marketing and Flashmobs)</string>
+		<string>A Twitter reference point to other content on the subject tagged</string>
+		<string>Integrated Marketing Communication. Putting all marketing communication together into a coordinated plan (SEE ALSO: Aggregation)</string>
+		<string>You didn't intend to buy it, but confronted with the opportunity, you go for it!</string>
+		<string>A sponsorship that offers goods or services for free in exchange for the benefit of getting the credit</string>
+		<string>Finding consumers in their lives wherever the communication will be best received and most effective</string>
+		<string>Paid or unpaid newbies who want to learn your industry</string>
+		<string>SEE: IMC</string>
+		<string>Identifying words surrounding a concept that will bring consumers to the concept (SEE ALSO: AdWords)</string>
+		<string>Linking two or more Websites together in order to increase the likelihood they'll show up in a Web search (SEE ALSO: SEO)</string>
+		<string>The #2 coupon promotion site (SEE: Groupon)</string>
+		<string>The micro content of a long string of information, content and product. The 20 of the 80/20 Rule. (SEE ALSO: 80/20 Rule and Blue Ocean Strategy)</string>
+		<string>Understanding a market through smart evaluations</string>
+		<string>Dividing a market into pieces that make sense for optimal market and marketing targeting </string>
+		<string>Product + Benefit</string>
+		<string>Product + Benefit + User End Benefit</string>
+		<string>Purpose driven marketing: Product + Benefit + User end benefit + Global purpose</string>
+		<string>Marketing to a very small, focused and hugely opportunistic market (SEE ALSO: Buzz Marketing)</string>
+		<string>Massively Multiple Online Role Playing Games. The game never stops.</string>
+		<string>Marketing messages sent and received through mobile devices – smart phones, tablets etc. (SEE ALSO: Yelp, Around Me and Foursquare)</string>
+		<string>Massive Online Open Courses. New course offerings from universities that anyone can "enroll" in and participate in.</string>
+		<string>SEE: Micromarketing</string>
+		<string>Targeted marketing reaching consumers one at a time (SEE ALSO: Direct Marketing)</string>
+		<string>The unpaid, actual results you get from a search engine inquiry</string>
+		<string>Marketing that asks for and gets opt-in for the marketer to communicate directly with the customer</string>
+		<string>Digital scrapbooking. Social connections through digital pinning of favorite activities and places (real and digital)</string>
+		<string>Ads that "pop up" on your computer screen when you're searching for something</string>
+		<string>SEE: Brand Positioning</string>
+		<string>A brand owned and offered by a retailer that without a middle man, they can generally offer the consumer for less</string>
+		<string>The life of a brand from birth to death and everything in between</string>
+		<string>A product that fits the life rhythms of its consumers</string>
+		<string>A range of pricing that fulfills a brand offering</string>
+		<string>Featuring your product in another venue (usually a movie or TV series)</string>
+		<string>The high ground in today's marketing that goes beyond product benefit to positive role in contributing to making the world a better place (SEE ALSO: Advocacy Advertising and Cause Marketing) </string>
+		<string>Quick Response digital codes that take a consumer to a web enabled site or message</string>
+		<string>Marketing that is dedicated to maximizing return on investment</string>
+		<string>Data that already exist and was gathered by someone else.</string>
+		<string>SEE: Market Segmentation</string>
+		<string>Messages that reach consumers based on their attention and choice</string>
+		<string>Messages consumers interpret in their own unique way. SEE: Selective Exposure</string>
+		<string>Messages consumers remember. SEE: Selective Exposure</string>
+		<string>Search Engine Marketing. Marketing using search engines, paid search and optimization (SEE ALSO: Keyword Marketing and SEO)</string>
+		<string>Search Engine Optimization—Making sure your Website will come up in a search result (SEE ALSO: Keyword Marketing and SEM)</string>
+		<string>The new buzz beyond the traditional 4P's—Product, Place, Price, Promotion with the addition of Positioning, People and Packaging</string>
+		<string>Online price comparison service</string>
+		<string>A test market simulation rather than in market</string>
+		<string>Computer modeling and games to provide insights into marketplace variables and opportunities (SEE Simulated Test Marketing)</string>
+		<string>Short Messaging Service—delivering your message over a smartphone's texting device</string>
+		<string>An acronym for "Social, Local and Mobile" marketing</string>
+		<string>SEE: Private Label</string>
+		<string>Business planning that is strategically driven</string>
+		<string>Revenue before expenses</string>
+		<string>A social networking service that lets you post your status to your followers in 140 characters or less (SEE ALSO: Blog)</string>
+		<string>Beyond the product benefit, the meaningful consumer satisfaction one feels as a result of product fulfillment</string>
+		<string>SEE: Crowdsourcing</string>
+		<string>Video News Report. A "news report" created by an ad agency or PR firm in the hope a TV station will run the story.</string>
+		<string>What a brand stands for that has value to customers (SEE ALSO: Brand Positioning)</string>
+		<string>SEE: "Buzz"</string>
+		<string>Location-based crowdsourcing reviews</string>
+	</array>
+	<key>Comment</key>
+	<array>
+		<string>Discovered in 1906 by an Italian economist, it's a real phenomenon named after him and sometimes called the Pareto Principle. There's a good, in-depth article on Wikipedia about this. If you're curious and understand statistics you can read all about it. It explains phenomena such as Amazon: Bookstores generally carry 20% of books in print (accounting for 80% of all book sales). Amazon covers that and the other 80%.</string>
+		<string>From cause marketing to political advertising, messaging that advances an idea or point of view in an attempt to influence public discourse, brand attitudes or political outcomes (i.e. voting or legislation)</string>
+		<string>A word coined by Google that's become a virtual generic term. Referring to the words users type into their search engine that advertisers use to direct the users to their brands or businesses, Looking for a local travel agent? Your local agent can "buy" the words "Travel agent" so when you search for the term, their Website comes up on the search result.</string>
+		<string>A relatively new term in the marketing pantheon. Aggregation is the art and science of creating effective plans and programs that are coordinated and work together. In the siloed world of traditional, digital and social media too often different managers run dedicated programs that are not linked to one another and don't maximize brand power.</string>
+		<string>Ambush suggests a violent surprise. The drama of an ambush will be as memorable as it is invasive. The key is to be sure the confrontation delights rather than terrifies or annoys. In the early days of Marketing 1.0 on the Web, Pop-ups were dubbed as the breakthrough communication of the Internet. However, a full screen Nissan ambushing a computer screen proved to be an annoying interruption rather than an appreciated brand message. Bye bye Pop-ups!</string>
+		<string>You need to know what your competition is doing. After all, your customers are going to know—they're exposed to your competitors' messages all the time. Do you carefully follow the best and innovative practices of the brands you know and love? Do you have a digital file of all your competitors' marketing materials? (See: Interns)</string>
+		<string>Think Weather Forecasting or Global Wind Patterns. "Big Data" is one of those terms that sounds great when you use it—and has very little practical application yet in the arena of marketing.</string>
+		<string>Blogs let everyone publicize their opinion, for better or worse. They range from immensely popular to uncomfortably personal and cover any topic you can conjure. Whether it's a daily stream of consciousness or monthly corporate updates, blogs give everyone the digital soap box to op-ed their news and opinions and broadcast them for public consumption. (See Also: Twitter)</string>
+		<string>Rather than fight over customers in a feeding frenzy (i.e., "red ocean"), seek new opportunities where no one else is fishing. First written about in 2005 in the book of the same name, it's an elaboration of an old marketing strategy of "find ‘em where your competitors aren't looking."</string>
+		<string>A Boutique Agency might, for example, specialize in a particular industry such as real estate advertising or might specialize in one type of media, such as a mobile marketing agency.</string>
+		<string>Smart companies—no matter how small—think of themselves as "brands." And everything they do is aimed at building that brand reputation to create a consumer relationship. It's a process that goes through a number of steps. Recognizing and managing those steps is critical to be successful in building a loyal base of customers.</string>
+		<string>A Brand Ambassador can be just an enthusiastic fan (the best choice), a paid guerilla promoter (to seed a new product or service) or a celebrity spokesperson (new basketball sneakers, anyone?). The best brand ambassadors are the true believers who spread the gospel because they are authentically committed.</string>
+		<string>What's the promise you're making to your customers—inferred or overt? Are your capabilities real and credible? What can your customers come to depend on you for? All of that goes a lot further than the basic question of what your brand does.</string>
+		<string>It's often much cheaper to introduce a brand extension ("Diet Coke") than a whole new brand ("Tab"). Customers immediately understand the basic benefits of an extended brand name. Special K started out as a single flavor cereal. Today, it's a healthy lifestyle brand that comes in multiple forms (i.e. cereal, bars, drinks and more.)</string>
+		<string>A brand is worth far more than its physical manufacturing plants and actual products. Its value includes all the good will people feel towards it. Like the financial power the word equity suggests, building deep consumer preference is money in the bank.</string>
+		<string>A consumer appropriates your logo and puts it on an obscene T-Shirt (bad). A consumer makes a mashup of your commercial and it gets 30 million views on YouTube (possibly good). They're both examples of Brand Hijacking.</string>
+		<string>A brand can't be all things to all people. And, it shouldn't try. A brand's limitations represent opportunities as well as risks. Rather than change the perception of your brand in the customer's mind ("it's got sugar in it"), you can springboard off that mindset and create new markets ("Diet Coke" or "Coke Zero").</string>
+		<string>American Express has brand permission to open Travel Agencies/Travel Services. They don't have permission from customers to make underwear.</string>
+		<string>If your brand was a car, what kind would it be? Convertible? SUV? Luxury sedan? Brand Personality is all the attributes—real or perceived—that customers (or avoiders) imbue your company with. We believe you should be able to express brand personality in five distinct but comprehensive adjectives.</string>
+		<string>Where do your customers "position" your brand in their minds? High-price? Industry leader? Vendor of last resort? Your marketing has the power to alter that perception.</string>
+		<string>"A picture is worth a thousand words." News organizations and advertisers look for visual elements that can tell the story in pictures that the announcer is saying in words. It provides news interest beyond the talking head. And, it becomes a much more likely story to make the news than one with know film support.</string>
+		<string>What's everyone talking about at the digital water cooler? A new fashion item? The latest digital gadget? Buzz can be spontaneous (no one told our generation to start wearing hats) or sometimes manufactured (read the case study of the launch of Ketel One Vodka).</string>
+		<string>Marketers have increasingly tied their brands to causes in an effort to extend favorable impressions about a brand. Target Stores, for example, has long tied its brand to extending literacy.</string>
+		<string>A personal online action that demonstrates interest in a piece of content based on clicking on it to get deeper communication</string>
+		<string>One possible measurement of how well your online advertising is doing. Did people click on your ad?</string>
+		<string>You've got to be aware of what your competitors are doing and be ready to adapt…or adopt some process, offer or incentive the competition is extending to their customers.</string>
+		<string>General market advertising is increasingly becoming just that—general. Carefully marrying the message and the medium provides a level of specificity and consumer appeal that a general message to a general audience can never do.</string>
+		<string>A contingency plan can be either short-term or long-term and is usually based on the possibility of changing market conditions.</string>
+		<string>Companies with dealer or retailer networks can extend their marketing by offering to help underwrite or encourage retailer advertising support. Chances are, nobody knows more about local opportunities than your local dealers.</string>
+		<string>CRM involves every touchpoint and every aspect of the ways a customer connects with a business. From the marketing message through the sale through digital media, through complaints through repeat business.</string>
+		<string>The process of asking for ideas and product suggestions (such as new names or flavors) from your customers. Mountain Dew has pretty much turned product development over to "the crowd." Havas recently acquired Victors and Spoils, an advertising agency dedicated to soliciting advertising from the crowd. Definitely a new movement in advertising. But, there's plenty of push back from the pros, too.   </string>
+		<string>Being a customer-centric company means identifying what your customers want and need most—and then providing it to them...ideally before they even know they need it! (SEE: Customer Insights)</string>
+		<string>Marketers must put themselves in their customers' shoes and understand how the customer interacts with their brand in every facet of the customer interaction with the brand (i.e. online, in-store, at home)</string>
+		<string>The fine art—often based on years of research and customer understanding—that leads to identifying the emotional basis of your customers' loyalty or purchasing decision.</string>
+		<string>The value of each of your customers goes way beyond the purchase of your product. There's repeat purchasing. Service. Positive word-of-mouth. All of it goes into determining Customer Lifetime Value</string>
+		<string>Customer Loyalty can be built by branding, sales, value, quality, service—any one of a number (or multiple) factors that make your customers say, "These are my guys."</string>
+		<string></string>
+		<string>The digital revolution has enabled companies to collect and aggregate vast amounts of information about their customers, including demographic and psychographic insights, buying patterns, brand preference and more. Use it!</string>
+		<string>From the company or brand Website, to the digital outreach a company or 3rd parties put forward. These are the online or mobile assets a brand can leverage, often at a way smaller cost than traditional advertising</string>
+		<string>Combining movement into formerly static printed billboards. This advertising can be more arresting, colorful, compelling and motivating</string>
+		<string>From Infomercials to Direct Mail to Target Marketing, the goal of DM is to reach customers "where they live" and give them a unique and personal message to which they will be most likely to positively respond.</string>
+		<string>Early Adopters are the leading edge of any new product, new trend or new technology. Win their hearts and minds and the rest of the masses will be much more likely to follow.</string>
+		<string></string>
+		<string>Done well, with pre-arranged video, hidden cameras, invited press and a good PR coordinated campaign, Flashmobs can make the jump to the local nightly news (SEE ALSO: "VNRs" and "B-Roll") and score millions in free publicity. (Check out the T-Mobile Liverpool Station event on YouTube.)</string>
+		<string>Foursquare uses the GPS on a smartphone to link users. Users can find friends, services, stores, sales and other opportunities immediately around them.</string>
+		<string>Geo targeting can be aimed at where people live (SEE ALSO: DM) or where they're actually located (SEE ALSO: Mobile Media, Foursquare, Impulse Buying and Yelp).</string>
+		<string>An offer or more a day, usually extending half off. The customer pays Groupon for the deal and then "cashes" the coupon at the retailer or eTailer offering the deal. The deal doesn't happen until a certain number of customers make the purchase.</string>
+		<string>Often used by advertisers who don't have huge budgets or aren't "the official sponsor" but want to make their presence known at an event.</string>
+		<string>By adding a # (hashtag) in front of a word on your Twitter account, it links your readers to that topic.</string>
+		<string>The mandatory in marketing programs today. Making sure your traditional marketing, digital marketing and social marketing are all communicating from the same strategy.</string>
+		<string>Impulse Buying is a very significant behavioral pattern that should be part of a company's marketing mix. Package or display your product or service in ways and in places that capture the attention and purchase interest of consumers.</string>
+		<string>A marketer donates merchandise. The organization can offer that merchandise as a prize or a sign-up bonus. Win-win-win for the marketer, the organization and the customer.</string>
+		<string>Lifestyle marketing. Find your customer where they will most likely care about you and your message. There's intrusive Intercept Marketing (SEE: Pop-Up Ads) and non-intrusive Intercept Marketing (SEE: Digital Billboards) and Intercept Marketing I Wasn't Aware Of (SEE: Keyword Marketing)</string>
+		<string>Interns are the greatest idea ever invented. Use them wisely and they'll appreciate the learning experience and remember you and your company fondly for years to come.</string>
+		<string></string>
+		<string>Looking for a restaurant in Des Moines? "Restaurant" and "Des Moines" are Keywords. Separately—but especially together. When a potential customer types a Keyword into a search engine like Google or a mobile APP like Yelp, a marketer can direct the search results to show the marketer's Website or location in the results.</string>
+		<string>One factor in Search Engine Optimization is the number of other (quality) sites that link to yours. The more links in your "farm," the higher you position in a search.</string>
+		<string>Good name for #2 in the online coupon category</string>
+		<string>If 20% of your customers account for 80% of your sales, what are you doing to market to the other 80%? Journalist Chris Anderson coined the term Long Tail in his book by the same name.</string>
+		<string>GIGO is an expression from the early days of computing. It means "Garbage In, Garbage Out." When you want to do a Market Analysis, be very, very (oops, let's say that again) very careful (or smart) about what questions you ask, what answers you get and how you apply them to learning and to new plans</string>
+		<string>Being all things to all people generally means your appeal will be to no one. Markets can be broken down (or sliced up or parsed) into smaller groups. How you choose to look at them is what matters (e.g. by age, by sex, by region etc.)</string>
+		<string>The pre-Internet era of marketing. You had a product and you promoted its benefit to the customer.</string>
+		<string>Moving up the food chain, Marketing 2.0 recognizes that the sale is best made by communicating a deeper emotional benefit to the customer.</string>
+		<string>A recognition that the global reason for being of a company has got to be bigger than just selling the brand and making money</string>
+		<string>A marketing technique that focuses on the white-hot core of enthusiasts</string>
+		<string>Gamers are hard-core, long-term and, increasingly, female as well as male. There are millions of them and they're global.</string>
+		<string>Generally third-party marketing through mobile APPs, but definitely the next revolution in general advertising reception.</string>
+		<string>Did the for-profit universities think the not-for-profits were going to just sit around and become irrelevant? It started with Stanford, Harvard and MIT: Put their "rock star" professors' courses online and let's see what happens. No one knows exactly where this is going – or what the economic model for this will be – but it's the hottest buzz in higher education today.</string>
+		<string></string>
+		<string>Direct Marketing in any form, medium or platform</string>
+		<string>There's Organic Search and there's paid search (SEE: Keyword Marketing). The goal is to have your Website come up as a result of an Organic Search.</string>
+		<string>First popularized by Seth Godin in his book "Permission Marketing," it's the recognition that the Web has democratized the shopping and buying process, and that every sale should be treated as a unique engagement with the customer.</string>
+		<string>Rapidly growing and skewing predominantly female, Pinterest is a visual way to build interest, connections and relationships.</string>
+		<string>"Hey! Hey! Look at me! Over here!" Annoying, no? And, virtually extinct…</string>
+		<string></string>
+		<string>Private label brands were originally thought to be inferior brands. That has largely changed, at least in certain categories. When we recognize and trust the store, we often will take advantage of the savings the private label brand extends. Think meat, paper and drugs.</string>
+		<string>One needs to be trend aware to understand if your brand is at risk of having a lifecyle. Think buggy whips. Mr. Ford with his horseless carriages spelled the death knell for this product. Some carriage manufacturers, like Studebaker, read which way the wind was blowing. Others, like Conestoga, disappeared. Which will you be?</string>
+		<string>A relatively new way to think about products and brands, Where a product used to be about benefit and performance, today the bundle of benefits a brand delivers may be much deeper</string>
+		<string>From product size (think retail coffee) to product features (think cars), different brands provide a range of options that enable more consumers to partake in the brand depending on personal budgets and spending preferences.</string>
+		<string>Would you like to have been FedEx in "Castaway"? Or how about Wilson? Product Placement is a way-underutilized tool in most marketers' toolbox.</string>
+		<string>Purpose-Driven Marketing is the place many global marketers are heading toward. Pepsi—"Refresh the World." Coke—"Open Happiness." The lines go well beyond the product benefit with programs that are giving back to people in need across cultures and around the world.</string>
+		<string>QR Codes are those little digital boxes with pixilated black squares inside them. If you have a QR Code reader on your smartphone, you can take a picture of the code and be taken to anyplace the advertiser wants.</string>
+		<string>Increasingly, company bean counters want you to prove the value of every dollar you spend as a marketer. The result is a lot of battling for marketing dollars and justification of marketing expenditures. Seeing marketing as a cost rather than an investment is a shortsighted way to hamstring the potential power of marketing.</string>
+		<string>Companies that have little or no research budget/initiative should mine the potential of secondary data. The Internet is a vast repository of pre-existing knowledge about your markets and target audiences that someone else already gathered for you.</string>
+		<string></string>
+		<string>People want to hear or choose to remember what they already know or what they already believe. Every Presidential election is run on the idea of selective exposure. The decideds believe the messages they already agree with. All those billions of dollars are spent convincing the small minority who haven't made up their minds.</string>
+		<string></string>
+		<string></string>
+		<string>There are multiple, multi-million-dollar companies that have sprung up in the past ten years whose sole purpose is to optimize your Website and get you placed in the first page of Google, Bing and Yahoo!</string>
+		<string>Many marketers consider it The Holy Grail: How to be the first result that comes up whenever anyone starts looking for what you're selling.</string>
+		<string>If you know exactly where you stand in all seven Ps, you're well on your way to successfully managing and marketing your business.</string>
+		<string>Shopzilla, MySimon and PricingCentral are all Shopping Bots. You type in the item you're searching for and they scour the Web to find the lowest price. Most also compare prices.</string>
+		<string>Simulated Test Marketing (STM) is faster, cheaper and more predictive than traditional test marketing. After all, the only thing you can really find out from a test market is whether people bought your product.</string>
+		<string></string>
+		<string>Be afraid. Be very afraid. Despite guidelines from the mobile carriers, it's a very thin line between "permission messaging" and Spam. But mobile is the next frontier. So brace yourselves, because your smartphone is your primary message device.</string>
+		<string>The term is credited to venture capitalist John Doerr of Kleiner Perkins. It's been a little slow catching on, but it might take hold.</string>
+		<string></string>
+		<string>Holding business planning to a higher level. Rather than retreading last year's plan, making sure you take into account the strategic landscape to build better plans</string>
+		<string>Sales</string>
+		<string>Still growing, the enormous potential of Twitter (and the "Tweets" that users send) is still unfolding. From political revolutions to rock concerts and more, Twitter will become an increasingly important tool in marketers' toolboxes.</string>
+		<string>Selling satisfaction or confidence is a higher order benefit than simply selling clean or sparkling. Advertiser promises are about selling consumers. User end benefits are about engaging them.</string>
+		<string>The term that preceded crowdsourcing</string>
+		<string>Got some hot news about your brand? Want to shift public opinion about your product or service? Hire a firm to write and distribute a VNR nationwide. Then hope all the stations run it and you don't get sued by the FTC.</string>
+		<string>Why you? Now that your customers can go onto the Internet and find everyone on the planet who does what you do or sells what you sell, why should they buy from you? The answer to that question is your Value Proposition.</string>
+		<string></string>
+		<string>A hip social connection to activities, retailers and locations consumers care about</string>
+	</array>
+	<key>Application</key>
+	<array>
+		<string>80/20 Rule</string>
+		<string>Advocacy Advertising</string>
+		<string>AdWords</string>
+		<string>Aggregation</string>
+		<string>Ambush Marketing</string>
+		<string>Benchmarking</string>
+		<string>Big Data</string>
+		<string>Blog</string>
+		<string>Blue Ocean Strategy</string>
+		<string>Boutique Agency</string>
+		<string>Brand Adoption Process</string>
+		<string>Brand Ambassadors</string>
+		<string>Brand Capabilities</string>
+		<string>Brand Extension</string>
+		<string>Brand Equity</string>
+		<string>Brand Hijacking</string>
+		<string>Brand Limitations</string>
 		<string>Brand Permission</string>
 		<string>Brand Personality</string>
 		<string>Brand Positioning</string>
@@ -175,50 +393,50 @@
 		<string>Market Analysis</string>
 		<string>Market Segmentation</string>
 		<string>Marketing 1.0</string>
-		<string>Marketing 2.0</string>
-		<string>Marketing 3.0</string>
-		<string>Micromarketing or Niche Marketing</string>
-		<string>MMORPG</string>
-		<string>Mobile Marketing</string>
-		<string>MOOCs</string>
-		<string>Niche Marketing</string>
-		<string>One-to-One Marketing</string>
-		<string>Organic Search</string>
-		<string>Permission Marketing</string>
-		<string>Pinterest</string>
-		<string>Pop-Up Ads</string>
-		<string>Positioning</string>
-		<string>Private Label or Generic Brand or Store Brand</string>
-		<string>Product Lifecycle</string>
-		<string>Product Lifestyle</string>
-		<string>Product-Line Pricing</string>
-		<string>Product Placement</string>
-		<string>Purpose-Driven Marketing</string>
-		<string>QR Codes</string>
-		<string>ROI (Marketing)</string>
-		<string>Secondary Data</string>
-		<string>Segmentation</string>
-		<string>Selective Exposure</string>
-		<string>Selective Perception</string>
-		<string>Selective Retention</string>
-		<string>SEM</string>
-		<string>SEO</string>
-		<string>Seven P’s</string>
-		<string>Shopping Bot</string>
-		<string>Simulated Test Marketing</string>
-		<string>Simulation Models</string>
-		<string>SMS Marketing</string>
-		<string>SoLoMo</string>
-		<string>Store Brand</string>
-		<string>Strategic Business Planning</string>
-		<string>Topline</string>
-		<string>Twitter</string>
-		<string>User End Benefit</string>
-		<string>User-Generated Content</string>
-		<string>VNR’s</string>
-		<string>Value Proposition</string>
-		<string>Word of Mouth (WoM)</string>
-		<string>Yelp</string>
+		<string>We should call this "Marketing 201" (SEE ALSO: Marketing 1.0). This insight suggests that beyond the product benefit is a human benefit. Largely promoted by P&G in the ‘80's, Marketing 2.0 took Cascade from dishwasher detergent to the "confident dinner party" as a function of its promise of no spots on stemware. This is a relevant higher order benefit that wins customers and extends brand reputation.</string>
+		<string>Marketing 3.0 goes beyond "cause-related marketing." It's not enough to just pick some kind of do-gooder cause and say, "We support this." Marketing 3.0 is an expression of a company's global mission beyond just selling product. Dawn not only gets grease out of the way to wash dishes sink-side, it also saves wildlife by cleaning oil spill from feathers and fur. So get your head out of your sales department's target goals for this quarter and start taking a longer horizon view of what your brand can be or do to make the world a better place.</string>
+		<string>A small marketing budget goes a long way if it's pointed like a laser at a very small audience. If that audience consists of the leading-edge trendsetters or the geeky fans of a particular product or service, you've got a real opportunity to win their hearts and minds…and they'll spread the word to all their followers. Micro breweries all got their start that way. You could, too.</string>
+		<string>As a sponsor, if you love the idea behind NASCAR, you'll love customers who MMORPG. They have fanatical loyalty to the games they play—and the sponsors who reach out to them. But there's no half-measures here. You're going to have to jump into the waters at the deep end of the pool, including conventions and chat rooms.</string>
+		<string>There was an attempt in the mid 2000s to offer customers free mobile phone service in return for advertising. We believe that idea is long dead. Nobody wants an ad on their phone or iPad. But everyone wants to know there's a special coupon available for them just 30 feet from where they're standing. Get it? Okay, now here's where your brilliance comes in: How can you apply Mobile Marketing to a company or business without any retail outlets? There's an answer, but you've got to think about it.</string>
+		<string>How are you training your team? Educational MOOCs and Business Webinars are going to gradually merge and create a new type of consultancy: The "rock star" presenter who can make online learning fast, easy and entertaining for business executives. Have your HR people keep an eye out for these…or design one yourself and become Marketing's newest rock star!</string>
+		<string></string>
+		<string>The polar opposite of Mass Marketing, One-to-One Marketing is the true manifestation of the idea that the customer is king and the consumer is now in charge. The ability of a marketer to understand how to engage customers on a "one-to-one" basis is a key to that marketer's future growth and success. But don't feel overwhelmed—remember the law of large numbers. If the customer you want is "one in a million," that means there are 300 of them in the United States alone.</string>
+		<string>Search engines such as Google, Yahoo! and Bing make their money from keyword marketing. They design those paid results to look like natural results. Your mission as a marketer is to be the #1 result on all three search engines without having to pay for any keyword marketing. If you're not on the first page of all search results, put a little pressure on your Social Media and IT teams.</string>
+		<string>Permission marketing is about advancing a free sample, an offer or a taste of what is to come. It's the free first chapter in a book, the first item in a collectable series or some other offer that is intriguing, compelling and likely going to hook the consumer into buying more. Once you've got their "permission" to sell to them, they'll be much more receptive to your message and your offering.</string>
+		<string>If you want to drill down, Beth Hayden (copyblogger.com) has a great blog on ways to market using Pinterest. But the basic rules apply: determine if your target audience is on the medium; determine if you've got something of interest to share with them; be clear and transparent without being coy about who you are and why you're posting. Build your friends network and strengthen your relationships.</string>
+		<string>Does anyone still use these? Does anyone still click on them?</string>
+		<string></string>
+		<string>"Private Label" represents a new opportunity for consumers and manufacturers alike. It offers value for the consumer and new sources of revenue for manufacturers to extend their retail base. For established brands, private label is a new source of competition often carried by the same retailers who carry their branded goods. This makes the retail a cuspetitor (a customer who is a competitor) and it puts an added burden on brand image, value and price premium to win.</string>
+		<string>The game in product lifecycle marketing is to stay ahead of the curve, remaining relevant to customers and responsive to trends and technology. If you think your product has a lifecycle it probably does. Either prepare for its funeral or stay ahead of the curve with innovation for the long haul.</string>
+		<string>Marketers who include the lifestyles of their consumer audiences into product development, extensions and marketing are the players who market competitive advantage. Think color, flavor, design and other elements of the brand offering that make the brand a badge and a reflection of who the consumer sees herself to be. </string>
+		<string>The key is to make the brand appealing and desirable to the widest relevant consumer audience by extending a product line that has something for everyone. Make sure the price fits the product offered. As great as it was, no one was willing to buy a Volkswagen Phaeton for up to $90,000. But that isn't stopping Volkswagen from trying again in 2015.</string>
+		<string>When it comes to movies, it's a crapshoot. Yes, you get to see the script. But so what? If a good script were a guarantee of a good movie, every movie would be a hit. If you go the traditional (Feature Film) product placement route, you have to make a purchasing decision long before you have any way of knowing whether you'll be cast in a good light or bad. But there are dozens of places you can get your product placed where it's affordable and you won't have to guess about how the opportunity will be perceived. Put a little thinking time into this one. It's a good opportunity.</string>
+		<string>Wanna play with the big boys? Start by connecting your brand with a relevant cause. Get connected. Do some good. And see what the public reaction is. It requires investment, both monetary and psychic. If you're prepared to play you're stepping your brand up to a higher stage. But if you have neither the relevant benefit nor the commitment to bold initiatives, then just keep selling what you're selling.</string>
+		<string>In 2009-2010, the advertising industry fell in love with QR Codes. The problem is that the general public hasn't. Also, marketers who used QR Codes did a very unimaginative job of using them. 99% of the time, if you took a picture of the code, you got taken to the company's Website. If you want to mess around with QR Codes, think about combining them with mobile marketing, Groupon and geo targeting. Be smart about it.</string>
+		<string>Don't get sucked down that rabbithole, change the conversation. Not every marketing dollar expenditure returns as a bottom-line sale. Some marketing dollars return as brand building. As brand capabilities and extension potential. As brand positioning. Put your budget in the context of Wall Street's perceived value of the Brand, not the sales department's calendar sales estimates. Take the high ground and you have a much better chance of holding onto your budget and staff.</string>
+		<string>Don't pay for what someone else can tell you—pay for what you need to know (SEE: Market Analysis). There's a lot of knowledge you can dig up about your brand, your market, your opportunities, without ever having to pay for any kind of research. Before you embark on ANY research initiative, put someone to work mining what's already out there (SEE: Interns)</string>
+		<string></string>
+		<string>Walmart can spend billions in PR promoting their "reforms." But the first time a piece of bad news comes out, everyone who thinks of Walmart as the Big, Bad Wolf says, "Aha! See? We told you so!" The old Ogilvy & Mather company (the predecessor to Ogilvy) used to have a marketing tool called "Current Perception / Desired Perception." The idea was to ask and answer, "What is our customer's perception of our product/service and what do we want it to be?" Selective Exposure plays a key role in that question—and a key role in shifting customer perception.</string>
+		<string></string>
+		<string></string>
+		<string>Ask yourself, "Why?" "Why do we want to be on the first page?" "What's the value to us?" "Does our overall marketing strategy support a need to drive people to a specific place on our Website?" Gee, is this starting to sound like basic marketing? Well it is. You've got to have a strategy before you start working on Search Engine Marketing and other search engine activities.</string>
+		<string>SEO is endemic to certain businesses. Amazon lives, breathes, eats and sleeps SEO. So does Wikipedia. To name just two. If you're going to embark on a disciplined Search Engine Optimization process, make sure you've got your metrics in place. Measure what you're going to spend on programmers, Web designers and optimizers. Measure what kind of sales results or hits you're currently getting. Measure what results you get after optimization. See if it pays. If it does, what are you waiting for?</string>
+		<string>The old 4P's model was drawn as a circle with each of the Ps at one quadrant. The 7P's model is still a circle, but six of the Ps are along the circumference and the seventh P—People—is at the center. (SEE: Customer Centricity) The Seven Ps is a great "gut check." Every few months, or at least once a year, you should gather the troops (or take a little free time by yourself) to answer what your company is doing for each of the seven Ps. There's a direct correlation between how well your business is doing and whether you're addressing all seven.</string>
+		<string>When was the last time you shopped for your own product or service? Your customers are doing it all the time—you'd better, too. (SEE: Competitive Intelligence and Interns) Are you being consistently beaten on price by your competition? Why? And how can you reposition yourself so that price isn't the deciding factor? (SEE: Brand Equity) Be ever vigilant and use all the tools in your toolbox.</string>
+		<string>You don't have to be a mega-million-dollar advertiser to use Simulated Test Marketing. You can set up a simple two-question test that can start to aggregate the information you need. Whenever someone calls you or comes into your store to shop, ask them two questions: "How did you hear about us?" (Quantitative Research) and "What made you call/come by?" (Qualitative Research) Keep a record of the answers over time and by demographics and you're—in effect—doing your own in-market STM.</string>
+		<string></string>
+		<string>SMS Marketing is an acceptable way of doing business in a number of countries. We think APP services like Yelp, AroundMe and Foursquare will do away with the desire of any advertiser to push out a text message to us under the guise that we want to know about their product or service. Opt-in advertising is the way of the future and it will be a perfect storm on hand-held devices.</string>
+		<string>Whatever you want to call it, Social, Local and Mobile marketing is now the new reality. With 60% of the public now owning smartphones, you're going to have to refocus and rethink your marketing and media strategies to address this issue of mobile marketing (SEE ALSO: Geo Tracking and Mobile Marketing)</string>
+		<string></string>
+		<string>The marketplace in changing more rapidly than ever. Information is readily available. Research can be conducted inexpensively and quickly. Competitors are smarter. Communication vehicles are exploding in terms of what they can do. It's a heady stew of opportunity that all needs to be considered, planned, implemented and measured to win big next year and in the years ahead.</string>
+		<string>Bottom line is the measure of business profitability. But, without strong sales growth, profit comes at the expense of cutting costs. That's a losing proposition long term. So, driving the topline is a critical measure of brand health and well-being.</string>
+		<string>How come the Jolly Green Giant doesn't tweet? Why has Tony the Tiger been hijacked by a trucker in Louisiana? How come your local pizza joint isn't tweeting its lunchtime special to their fan base? Marketers have been way too slow to jump on this opportunity, and they're going to be playing catch-up on this one for a while.</string>
+		<string>Brands whose benefits are obvious are reaching for higher levels of engagement. Can you? Coke and Pepsi both offer fun, refreshment in the form of bubbly brown liquid. Yet Coke invites consumers to "Open Happiness." And, Pepsi is encouraging people to "Refresh the World" with crowdsourced social programs that will make a difference.</string>
+		<string>A new and growing dimension of advertising where consumers create the content. This can be spontaneous (the mid-2000s example was "Where in the World is Matt?") or it can be manufactured (Doritos Super Bowl campaign). Either way, it's a smart way to tap into your customers' collective brainpower and good feelings toward your brand.</string>
+		<string>Are you still naïve enough to believe that the story you saw about a new drug's effectiveness in treating Parkinson patients was actually investigated and reported by an impartial journalist? Are you interested in buying a bridge in Brooklyn? VNRs have been around a while. And as print media continues to decline and online news continues to grow, you're going to see more and more reports that will be indistinguishable from real news. Now that we've disparaged the concept, we'll be the first ones to tell you that if you've got a great story to tell, well then go for it!</string>
+		<string>You'd better have one.</string>
+		<string></string>
+		<string>The company you keep can be a powerful endorsement of your brand. Be where your audience is and accompany them to the places and spaces they frequent and care about</string>
 	</array>
 </dict>
 </plist>
