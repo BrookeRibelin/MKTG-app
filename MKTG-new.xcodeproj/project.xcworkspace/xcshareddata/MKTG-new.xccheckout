@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>488B3D25-6038-468A-B27E-B58EF5B473A5</string>
+	<string>42790D7C-98B0-4002-B5AE-8F15A064358A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MKTG-app</string>
+	<string>MKTG-new</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
 		<string>ssh://github.com/BrookeRibelin/MKTG-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MKTG-app.xcodeproj/project.xcworkspace</string>
+	<string>MKTG-new.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
