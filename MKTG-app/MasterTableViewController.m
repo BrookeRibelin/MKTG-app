@@ -17,7 +17,7 @@
 @implementation MasterTableViewController
 
 @synthesize detailViewController = _detailViewController;
-@synthesize terms, name, definition;
+@synthesize terms, name, link, definition, comment, application;
 
 - (void)viewDidLoad
 {
@@ -25,8 +25,11 @@
     NSString *termsFile = [[NSBundle mainBundle] pathForResource:@"theterms" ofType:@"plist"];
     terms = [[NSDictionary alloc] initWithContentsOfFile:termsFile];
     name = [terms objectForKey:@"Name"];
+    link = [terms objectForKey:@"Link"];
     definition = [terms objectForKey:@"Definition"];
-    
+    comment = [terms objectForKey:@"Comment"];
+    application = [terms objectForKey:@"Application"];
+
     [super viewDidLoad];
     
 }
