@@ -5,28 +5,18 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>887F339F-09A1-4B03-B3EB-1759D05AB820</string>
-=======
-	<string>D85E5B7A-856A-46CA-A524-E116ECA4D3E1</string>
->>>>>>> 070d2ec0e16f01820504511741094f4342bae8ea
+	<string>488B3D25-6038-468A-B27E-B58EF5B473A5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MKTG-app</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
 		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
 		<string>ssh://github.com/BrookeRibelin/MKTG-app.git</string>
-=======
-		<key>72B6428E-CC04-46EB-8FB0-4F043CEEAFF4</key>
-		<string>https://github.com/BrookeRibelin/MKTG-app.git</string>
->>>>>>> 070d2ec0e16f01820504511741094f4342bae8ea
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MKTG-app.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
 		<key>86236744-5E20-4482-AFD3-7D5D54C52772</key>
 		<string>../..</string>
 	</dict>
@@ -36,32 +26,15 @@
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>86236744-5E20-4482-AFD3-7D5D54C52772</string>
-=======
-		<key>72B6428E-CC04-46EB-8FB0-4F043CEEAFF4</key>
-		<string>../..</string>
-	</dict>
-	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/BrookeRibelin/MKTG-app.git</string>
-	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
-	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>72B6428E-CC04-46EB-8FB0-4F043CEEAFF4</string>
->>>>>>> 070d2ec0e16f01820504511741094f4342bae8ea
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
 			<string>86236744-5E20-4482-AFD3-7D5D54C52772</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PSinsights</string>
-=======
-			<string>72B6428E-CC04-46EB-8FB0-4F043CEEAFF4</string>
-			<key>IDESourceControlWCCName</key>
-			<string>MKTG-app</string>
->>>>>>> 070d2ec0e16f01820504511741094f4342bae8ea
 		</dict>
 	</array>
 </dict>
