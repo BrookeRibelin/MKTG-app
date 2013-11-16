@@ -39,9 +39,10 @@
 
 
 - (IBAction)social:(id)sender {
-    UIActionSheet *share = [[UIActionSheet alloc] initWithTitle:@"Sharing Goodness" delegate:self cancelButtonTitle:@"OK" destructiveButtonTitle:nil otherButtonTitles:@"Tweet it!", @"Facebook it!", nil];
+    UIActionSheet *share = [[UIActionSheet alloc] initWithTitle:@"Dassit. Share dem words. Dem words doe." delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Tweet it!", @"Facebook it!", nil];
     
-    [share showInView:self.view];
+    [share showInView:[self.view window]];
+    
 }
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
@@ -61,7 +62,7 @@
             
         } else {
             //This alreat tells the user that they can't use built in socal interegration and why they can't.
-            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:@"You can't send a tweet right now, make sure you have at least one Twitter account setup and your device is using iOS6." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:@"You can't send a tweet right now, make sure you have at least one Twitter account setup and your device is using iOS6." delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
             [alertView show];
         }
         
