@@ -67,14 +67,20 @@
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"GoToDetails"]){
-        NSIndexPath *indexPath = nil;
-        
-        indexPath = [self.tableView indexPathForSelectedRow];
-        NSString *print = [definition objectAtIndex:indexPath.row];
-
-        [[segue destinationViewController] setDetailLabelContents:print];
-    }
+        if ([[segue identifier] isEqualToString:@"GoToDetails"]){
+            NSIndexPath *indexPath = nil;
+            
+            indexPath = [self.tableView indexPathForSelectedRow];
+            NSString *n = [name objectAtIndex:indexPath.row];
+            NSString *l = [link objectAtIndex:indexPath.row];
+            NSString *d = [definition objectAtIndex:indexPath.row];
+            NSString *c = [comment objectAtIndex:indexPath.row];
+            NSString *a = [application objectAtIndex:indexPath.row];
+            
+            NSString *print = [NSString stringWithFormat:@"%@\r%@\r%@\r%@\r%@", n,l,d,c,a];
+            
+            [[segue destinationViewController] setDetailLabelContents:print];
+        }
 }
-
+    
 @end
