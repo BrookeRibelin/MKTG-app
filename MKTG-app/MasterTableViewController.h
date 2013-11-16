@@ -10,12 +10,17 @@
 
 @class DetailViewController;
 
-@interface MasterTableViewController : UITableViewController
+@interface MasterTableViewController : UITableViewController <UISearchBarDelegate>
 
 @property (nonatomic, strong) NSDictionary *terms;
 @property (nonatomic, strong) NSArray *name;
+@property (nonatomic, strong) NSArray *link;
 @property (nonatomic, strong) NSArray *definition;
+@property (nonatomic, strong) NSArray *comment;
+@property (nonatomic, strong) NSArray *application;
 
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+    
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @end
