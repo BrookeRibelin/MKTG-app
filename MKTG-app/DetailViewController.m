@@ -15,20 +15,20 @@
 
 @implementation DetailViewController
 
+@synthesize textcontent;
+
 - (void)configureView
 {
-    //update user interface for detail view
 
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-    //set label text
     
+    //set text
     self.detailLabel.text = self.detailLabelContents;
-
+    textcontent = [NSString stringWithFormat:@"I found this awesome term through the PS Insights MKTG app \n\n%@", _detailLabelContents];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,9 +37,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark uitextview no editing
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    return NO;
+}
+
+#pragma mark social
 
 - (IBAction)social:(id)sender {
-    UIActionSheet *share = [[UIActionSheet alloc] initWithTitle:@"Dassit. Share dem words. Dem words doe." delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Tweet it!", @"Facebook it!", nil];
+    UIActionSheet *share = [[UIActionSheet alloc] initWithTitle:@"Share this term!" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Tweet it!", @"Facebook it!", nil];
     
     [share showInView:[self.view window]];
     
@@ -55,7 +62,7 @@
             SLComposeViewController *tweetSheet =[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
             
             //This is setting the initial text for our share card.
-            [tweetSheet setInitialText:@"veasoftware.com made it easy to intergate Twitter with iOS 6! :D "];
+            [tweetSheet setInitialText:textcontent];
             
             //Brings up the little share card with the test we have pre defind.
             [self presentViewController:tweetSheet animated:YES completion:nil];
@@ -74,7 +81,7 @@
             SLComposeViewController *facebookSheet =[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
             
             //This is setting the initial text for our share card.
-            [facebookSheet setInitialText:@"veasoftware.com made it easy to integrate Facebook with iOS 6! :D "];
+            [facebookSheet setInitialText:textcontent];
             
             //Brings up the little share card with the test we have pre defind.
             [self presentViewController:facebookSheet animated:YES completion:nil];
@@ -87,4 +94,55 @@
         
     }
 }
+
+#pragma mark email
+
+- (IBAction)email:(id)sender {
+    
+    if ([MFMailComposeViewController canSendMail]) {
+        
+        MFMailComposeViewController *mail = [[MFMailComposeViewController alloc] init];
+        mail.mailComposeDelegate = self;
+        [mail setSubject:@"The MKTG app is awesome!"];
+        NSArray *toRecipients = [NSArray arrayWithObjects: nil];
+        [mail setToRecipients:toRecipients];
+        NSString *emailBody = [NSString stringWithFormat:@"%@", textcontent];
+        [mail setMessageBody:emailBody isHTML:NO];
+        mail.modalPresentationStyle = UIModalPresentationPageSheet;
+        [self presentViewController:mail animated:YES completion:nil];
+        
+    } else {
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Sorry, we had a few issues" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        [alert show];
+        
+    }
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    
+    switch (result) {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Canceled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Saved");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Failed");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Sent");
+            break;
+            
+        default:
+            NSLog(@"default");
+            break;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
+
 @end

@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface DetailViewController : UIViewController <UIActionSheetDelegate>
+@interface DetailViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) NSString *detailLabelContents;
-@property (weak, nonatomic) IBOutlet UILabel *detailLabel;
+@property (weak, nonatomic) IBOutlet UITextView *detailLabel;
+@property (strong, nonatomic) NSString *textcontent;
+
 - (IBAction)social:(id)sender;
+
+- (IBAction)email:(id)sender;
 
 @end
