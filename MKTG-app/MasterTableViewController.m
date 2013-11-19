@@ -72,6 +72,7 @@
             
             indexPath = [self.tableView indexPathForSelectedRow];
             NSString *n = [name objectAtIndex:indexPath.row];
+            //TODO remove NSString link from table
             NSString *l = [link objectAtIndex:indexPath.row];
             NSString *d = [definition objectAtIndex:indexPath.row];
             NSString *c = [comment objectAtIndex:indexPath.row];
@@ -80,6 +81,8 @@
             NSString *print = [NSString stringWithFormat:@"%@\r%@\r%@\r%@\r%@", n,l,d,c,a];
             
             [[segue destinationViewController] setDetailLabelContents:print];
+            [[segue destinationViewController] setDetailLabelTitle:n];
+            [[segue destinationViewController] setDetailLabelTitleLink:l];
         }
 }
     

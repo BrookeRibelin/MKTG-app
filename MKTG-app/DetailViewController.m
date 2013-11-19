@@ -24,9 +24,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+    //TODO if the value for link is not empty
+    //TODO set color for state equal to blue
+    //TODO else set it to black
+	[titleLinkButton setTitle:self.detailLabelTitle forState:UIControlStateNormal];
     //set label text
-    
     self.detailLabel.text = self.detailLabelContents;
 
 }
@@ -37,6 +39,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openLinkInSafari:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.detailLabelTitleLink]];
+}
 
 - (IBAction)social:(id)sender {
     UIActionSheet *share = [[UIActionSheet alloc] initWithTitle:@"Dassit. Share dem words. Dem words doe." delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Tweet it!", @"Facebook it!", nil];
@@ -44,6 +49,8 @@
     [share showInView:[self.view window]];
     
 }
+
+
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     //Each button title we gave to our action sheet is given a tag starting with 0.
@@ -55,6 +62,7 @@
             SLComposeViewController *tweetSheet =[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
             
             //This is setting the initial text for our share card.
+            //TODO edit text to contain better message
             [tweetSheet setInitialText:@"veasoftware.com made it easy to intergate Twitter with iOS 6! :D "];
             
             //Brings up the little share card with the test we have pre defind.
@@ -74,6 +82,7 @@
             SLComposeViewController *facebookSheet =[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
             
             //This is setting the initial text for our share card.
+            //TODO set text to contain better message
             [facebookSheet setInitialText:@"veasoftware.com made it easy to integrate Facebook with iOS 6! :D "];
             
             //Brings up the little share card with the test we have pre defind.
