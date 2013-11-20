@@ -13,12 +13,12 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search" id="hRs-Kg-9X4">
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="htU-6f-8v0">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
-                                <outlet property="delegate" destination="cZI-b8-0Dc" id="Q86-BU-zwj"/>
+                                <outlet property="delegate" destination="cZI-b8-0Dc" id="He3-LE-vpI"/>
                             </connections>
                         </searchBar>
                         <prototypes>
@@ -51,34 +51,17 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="5Dn-Pg-qwe"/>
                     <connections>
-                        <outlet property="searchBar" destination="hRs-Kg-9X4" id="qEp-kA-ek4"/>
-                        <outlet property="searchDisplayController" destination="Go2-JE-JWk" id="3mH-k4-6gh"/>
+                        <outlet property="searchDisplayController" destination="zM4-2n-jYw" id="yQb-6q-3lr"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sc8-1n-pUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="zM4-2n-jYw">
                     <connections>
                         <outlet property="delegate" destination="cZI-b8-0Dc" id="M9N-En-9g3"/>
+                        <outlet property="searchBar" destination="htU-6f-8v0" id="geC-Gd-phn"/>
                         <outlet property="searchContentsController" destination="cZI-b8-0Dc" id="Dxy-Sn-LT4"/>
                         <outlet property="searchResultsDataSource" destination="cZI-b8-0Dc" id="FyL-Ad-SqL"/>
                         <outlet property="searchResultsDelegate" destination="cZI-b8-0Dc" id="Ycl-56-nHb"/>
-                    </connections>
-                </searchDisplayController>
-                <searchDisplayController id="vMV-Zo-1F8">
-                    <connections>
-                        <outlet property="delegate" destination="cZI-b8-0Dc" id="01f-IJ-kl0"/>
-                        <outlet property="searchContentsController" destination="cZI-b8-0Dc" id="uES-sm-PED"/>
-                        <outlet property="searchResultsDataSource" destination="cZI-b8-0Dc" id="Scf-Es-NsF"/>
-                        <outlet property="searchResultsDelegate" destination="cZI-b8-0Dc" id="FCs-Vy-Ky6"/>
-                    </connections>
-                </searchDisplayController>
-                <searchDisplayController id="Go2-JE-JWk">
-                    <connections>
-                        <outlet property="delegate" destination="cZI-b8-0Dc" id="p70-GR-TwK"/>
-                        <outlet property="searchBar" destination="hRs-Kg-9X4" id="aof-G4-VLI"/>
-                        <outlet property="searchContentsController" destination="cZI-b8-0Dc" id="X6T-VK-dX4"/>
-                        <outlet property="searchResultsDataSource" destination="cZI-b8-0Dc" id="YMt-JM-Rbz"/>
-                        <outlet property="searchResultsDelegate" destination="cZI-b8-0Dc" id="OvA-D8-X2f"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -96,13 +79,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="c7P-eV-IOC">
-                                <rect key="frame" x="20" y="131" width="280" height="272"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5O-HQ-jm2">
                                 <rect key="frame" x="74" y="7" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -121,9 +97,12 @@
                                 <state key="normal" title="Email it">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="email:" destination="cV9-SN-wFl" eventType="touchUpInside" id="viB-PL-az1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsI-vU-bAW">
-                                <rect key="frame" x="20" y="45" width="280" height="78"/>
+                                <rect key="frame" x="20" y="25" width="280" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Button">
@@ -133,13 +112,20 @@
                                     <action selector="openLinkInSafari:" destination="cV9-SN-wFl" eventType="touchUpInside" id="maj-5g-caP"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" keyboardDismissMode="interactive" text="Text" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lKd-cP-pC3">
+                                <rect key="frame" x="20" y="81" width="280" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="WLG-vk-4A8"/>
                     <connections>
-                        <outlet property="detailLabel" destination="c7P-eV-IOC" id="RKb-Y3-GP7"/>
+                        <outlet property="detailLabel" destination="lKd-cP-pC3" id="081-K3-g05"/>
                         <outlet property="titleLinkButton" destination="WsI-vU-bAW" id="Y0f-7c-91y"/>
                     </connections>
                 </viewController>

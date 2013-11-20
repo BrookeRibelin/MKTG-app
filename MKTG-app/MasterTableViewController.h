@@ -18,9 +18,10 @@
 @property (nonatomic, strong) NSArray *definition;
 @property (nonatomic, strong) NSArray *comment;
 @property (nonatomic, strong) NSArray *application;
-
-@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (nonatomic, strong) NSArray *searchResults;
+@property (nonatomic, strong) NSString *print;
+@property (nonatomic, strong) NSString *searchTextTarget;
+@property (nonatomic, strong) NSString *searchStringTarget;
     
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
 @end
