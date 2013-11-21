@@ -100,7 +100,7 @@
             NSString *c = [comment objectAtIndex:indexPath.row];
             NSString *a = [application objectAtIndex:indexPath.row];
             
-            print = [NSString stringWithFormat:@"%@\n%@\n\nDefinition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", n,l,d,c,a];
+            print = [NSString stringWithFormat:@"Definition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", d,c,a];
             
             [[segue destinationViewController] setDetailLabelContents:print];
             [[segue destinationViewController] setDetailLabelTitle:n];

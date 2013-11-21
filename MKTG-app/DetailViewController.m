@@ -28,8 +28,9 @@
     //TODO if the value for link is not empty
     //TODO set color for state equal to blue
     //TODO else set it to black
+    //creates a title and makes the title into a link
 	[titleLinkButton setTitle:self.detailLabelTitle forState:UIControlStateNormal];
-    //set label text
+    //sets label text to include definition
     self.detailLabel.editable = NO;
     self.detailLabel.text = self.detailLabelContents;
     
