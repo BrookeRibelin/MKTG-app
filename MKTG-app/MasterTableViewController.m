@@ -20,7 +20,7 @@
 }
 
 @synthesize detailViewController = _detailViewController;
-@synthesize terms, name, link, definition, comment, application, searchResults, print, searchTextTarget, searchStringTarget;
+@synthesize terms, idnum, name, link, definition, comment, application, searchResults, print, searchTextTarget, searchStringTarget, num;
 
 - (void)viewDidLoad
 {
@@ -31,6 +31,7 @@
     
     NSString *termsFile = [[NSBundle mainBundle] pathForResource:@"theterms" ofType:@"plist"];
     terms = [[NSDictionary alloc] initWithContentsOfFile:termsFile];
+    idnum = [terms objectForKey:@"Id"];
     name = [terms objectForKey:@"Name"];
     link = [terms objectForKey:@"Link"];
     definition = [terms objectForKey:@"Definition"];
@@ -54,7 +55,7 @@
 {
     static NSString *simpleTableIdentifier = @"Cell";
     
-    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
@@ -69,28 +70,39 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
-        [self performSegueWithIdentifier: @"GoToDetails" sender: self];
-    }
-}
-
 #pragma mark segue from table cell to detail view
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"GoToDetails"]){
+        //DetailViewController *destViewController = segue.destinationViewController;
+        
         NSIndexPath *indexPath = nil;
         
         if ([self.searchDisplayController isActive]) {
-        indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
-        NSString *n = [searchResults objectAtIndex:indexPath.row];
-        
-        print = [NSString stringWithFormat:@"%@", n];
-        
-        [[segue destinationViewController] setDetailLabelContents:print];
+            indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
+            NSString *searched = [searchResults objectAtIndex:indexPath.row];
             
+            for (int i = 0; i < 106; i++)
+            {
+                indexPath = [NSIndexPath indexPathForRow:i inSection:0];
+                NSString *n = [name objectAtIndex:indexPath.row];
+                if (searched == n)
+                {
+                    num = i;
+                }
+            }
+            
+            indexPath = [NSIndexPath indexPathForRow:num inSection:0];
+            NSString *n = [name objectAtIndex:indexPath.row];
+            NSString *l = [link objectAtIndex:indexPath.row];
+            NSString *d = [definition objectAtIndex:indexPath.row];
+            NSString *c = [comment objectAtIndex:indexPath.row];
+            NSString *a = [application objectAtIndex:indexPath.row];
+            
+            print = [NSString stringWithFormat:@"%@\n%@\n\nDefinition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", n,l,d,c,a];
+            
+            [[segue destinationViewController] setDetailLabelContents:print];
+        
         } else {
             indexPath = [self.tableView indexPathForSelectedRow];
             NSString *n = [name objectAtIndex:indexPath.row];

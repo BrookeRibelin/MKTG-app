@@ -13,6 +13,7 @@
 @interface MasterTableViewController : UITableViewController <UISearchBarDelegate>
 
 @property (nonatomic, strong) NSDictionary *terms;
+@property (nonatomic, strong) NSArray *idnum;
 @property (nonatomic, strong) NSArray *name;
 @property (nonatomic, strong) NSArray *link;
 @property (nonatomic, strong) NSArray *definition;
@@ -22,6 +23,9 @@
 @property (nonatomic, strong) NSString *print;
 @property (nonatomic, strong) NSString *searchTextTarget;
 @property (nonatomic, strong) NSString *searchStringTarget;
+@property int num;
+
     
 @property (strong, nonatomic) DetailViewController *detailViewController;
+
 @end
