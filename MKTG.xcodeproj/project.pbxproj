@@ -65,8 +65,6 @@
 		C94C4A6C1835E6C7005A92B1 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
 		C94C4A6E1835E885005A92B1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C94C4A6F1835E885005A92B1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C95911AF183EEE5A002CF5A1 /* startup_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup_640x1136.png; path = ../icons/startup_640x1136.png; sourceTree = "<group>"; };
-		C95911B0183EEE65002CF5A1 /* startup_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup_640x960.png; path = ../icons/startup_640x960.png; sourceTree = "<group>"; };
 		C963D0111836715D009CAB4E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C9B6499C183EC37400AFDC11 /* icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120x120.png; path = ../icons/icon_120x120.png; sourceTree = "<group>"; };
 		C9B6499D183EC42A00AFDC11 /* icon_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_80x80.png; path = ../icons/icon_80x80.png; sourceTree = "<group>"; };
@@ -155,8 +153,6 @@
 				C9B6499E183EC43400AFDC11 /* icon_58x58.png */,
 				C9B6499D183EC42A00AFDC11 /* icon_80x80.png */,
 				C9B6499C183EC37400AFDC11 /* icon_120x120.png */,
-				C95911B0183EEE65002CF5A1 /* startup_640x960.png */,
-				C95911AF183EEE5A002CF5A1 /* startup_640x1136.png */,
 				C9468F0A1835CDB400240F3D /* MKTG-Info.plist */,
 				C9468F0B1835CDB400240F3D /* InfoPlist.strings */,
 				C9468F0E1835CDB400240F3D /* main.m */,
