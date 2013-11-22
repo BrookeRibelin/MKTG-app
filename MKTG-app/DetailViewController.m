@@ -29,12 +29,15 @@
     //TODO set color for state equal to blue
     //TODO else set it to black
     //creates a title and makes the title into a link
+    titleLinkButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    titleLinkButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    titleLinkButton.titleLabel.numberOfLines = 0;
 	[titleLinkButton setTitle:self.detailLabelTitle forState:UIControlStateNormal];
     //sets label text to include definition
     self.detailLabel.editable = NO;
     self.detailLabel.text = self.detailLabelContents;
     
-    textcontent = [NSString stringWithFormat:@"I found this awesome term through the PS Insights MKTG app \n\n%@", _detailLabelContents];
+    textcontent = [NSString stringWithFormat:@"I found this awesome term through the PS Insights MKTG app \n\n%@: \n\n%@", self.detailLabelTitle, _detailLabelContents];
 }
 
 - (void)didReceiveMemoryWarning
@@ -76,8 +79,8 @@
             SLComposeViewController *tweetSheet =[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
             //This is setting the initial text for our share card.
             //TODO edit text to contain better message
-            [tweetSheet setInitialText:@"veasoftware.com made it easy to intergate Twitter with iOS 6! :D "];
-            //[tweetSheet setInitialText:textcontent];
+            //[tweetSheet setInitialText:@"veasoftware.com made it easy to intergate Twitter with iOS 6! :D "];
+            [tweetSheet setInitialText:textcontent];
 
             
             //Brings up the little share card with the test we have pre defind.
@@ -99,8 +102,8 @@
             //This is setting the initial text for our share card.
 
             //TODO set text to contain better message
-            [facebookSheet setInitialText:@"veasoftware.com made it easy to integrate Facebook with iOS 6! :D "];
-            //[facebookSheet setInitialText:textcontent];
+            //[facebookSheet setInitialText:@"veasoftware.com made it easy to integrate Facebook with iOS 6! :D "];
+            [facebookSheet setInitialText:textcontent];
 
             
             //Brings up the little share card with the test we have pre defind.
