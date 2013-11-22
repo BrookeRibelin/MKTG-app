@@ -13,7 +13,6 @@
 @interface DetailViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 {
     IBOutlet UIButton *titleLinkButton;
-    
 }
 @property (strong, nonatomic) NSString *detailLabelContents;
 @property (strong, nonatomic) NSString *detailLabelTitle;

@@ -25,9 +25,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //TODO if the value for link is not empty
-    //TODO set color for state equal to blue
-    //TODO else set it to black
+    //if the value for link is empty
+    if ([self.detailLabelTitleLink isEqualToString: @""]){
+    //set color for state equal to black
+    [titleLinkButton setTitleColor:[UIColor blackColor ]forState: UIControlStateNormal];
+    }
+    
     //creates a title and makes the title into a link
     titleLinkButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     titleLinkButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
