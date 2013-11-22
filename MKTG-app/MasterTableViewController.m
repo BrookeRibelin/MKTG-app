@@ -99,14 +99,16 @@
             NSString *c = [comment objectAtIndex:indexPath.row];
             NSString *a = [application objectAtIndex:indexPath.row];
             
-            print = [NSString stringWithFormat:@"%@\n%@\n\nDefinition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", n,l,d,c,a];
+            print = [NSString stringWithFormat:@"Definition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", d,c,a];
             
             [[segue destinationViewController] setDetailLabelContents:print];
+            [[segue destinationViewController] setDetailLabelTitle:n];
+            [[segue destinationViewController] setDetailLabelTitleLink:l];
+
         
         } else {
             indexPath = [self.tableView indexPathForSelectedRow];
             NSString *n = [name objectAtIndex:indexPath.row];
-            //TODO remove NSString link from table
             NSString *l = [link objectAtIndex:indexPath.row];
             NSString *d = [definition objectAtIndex:indexPath.row];
             NSString *c = [comment objectAtIndex:indexPath.row];
