@@ -147,6 +147,8 @@ shouldReloadTableForSearchString:(NSString *)searchString
     return YES;
 }
 
+#pragma mark other
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
