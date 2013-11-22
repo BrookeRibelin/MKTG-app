@@ -9,13 +9,21 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 
-@interface DetailViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 
+@interface DetailViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
+{
+    IBOutlet UIButton *titleLinkButton;
+    
+}
 @property (strong, nonatomic) NSString *detailLabelContents;
-@property (weak, nonatomic) IBOutlet UITextView *detailLabel;
+@property (strong, nonatomic) NSString *detailLabelTitle;
+@property (strong, nonatomic) NSString *detailLabelTitleLink;
 @property (strong, nonatomic) NSString *textcontent;
+@property (weak, nonatomic) IBOutlet UITextView *detailLabel;
 
 - (IBAction)social:(id)sender;
+- (IBAction)openLinkInSafari:(id)sender;
+
 
 - (IBAction)email:(id)sender;
 
