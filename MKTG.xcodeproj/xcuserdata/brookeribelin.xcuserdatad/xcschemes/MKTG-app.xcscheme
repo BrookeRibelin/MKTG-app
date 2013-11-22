@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9468EFE1835CDB400240F3D"
                BuildableName = "MKTG-app.app"
-               BlueprintName = "MKTG-app"
-               ReferencedContainer = "container:MKTG-app.xcodeproj">
+               BlueprintName = "MKTG"
+               ReferencedContainer = "container:MKTG.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9468F221835CDB400240F3D"
                BuildableName = "MKTG-appTests.xctest"
-               BlueprintName = "MKTG-appTests"
-               ReferencedContainer = "container:MKTG-app.xcodeproj">
+               BlueprintName = "MKTGTests"
+               ReferencedContainer = "container:MKTG.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9468EFE1835CDB400240F3D"
             BuildableName = "MKTG-app.app"
-            BlueprintName = "MKTG-app"
-            ReferencedContainer = "container:MKTG-app.xcodeproj">
+            BlueprintName = "MKTG"
+            ReferencedContainer = "container:MKTG.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9468EFE1835CDB400240F3D"
             BuildableName = "MKTG-app.app"
-            BlueprintName = "MKTG-app"
-            ReferencedContainer = "container:MKTG-app.xcodeproj">
+            BlueprintName = "MKTG"
+            ReferencedContainer = "container:MKTG.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9468EFE1835CDB400240F3D"
             BuildableName = "MKTG-app.app"
-            BlueprintName = "MKTG-app"
-            ReferencedContainer = "container:MKTG-app.xcodeproj">
+            BlueprintName = "MKTG"
+            ReferencedContainer = "container:MKTG.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

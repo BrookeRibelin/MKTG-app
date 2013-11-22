@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MKTG-app.xcodeproj">
+      location = "self:MKTG.xcodeproj">
    </FileRef>
 </Workspace>
