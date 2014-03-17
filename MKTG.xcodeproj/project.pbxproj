@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C93FD5D418655D83003CBB3F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93FD5D218655D83003CBB3F /* Main_iPad.storyboard */; };
 		C9468F031835CDB400240F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F021835CDB400240F3D /* Foundation.framework */; };
 		C9468F051835CDB400240F3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F041835CDB400240F3D /* CoreGraphics.framework */; };
 		C9468F071835CDB400240F3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9468F061835CDB400240F3D /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C93FD5D318655D83003CBB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MKTG-app/Base.lproj/Main_iPad.storyboard"; sourceTree = "<group>"; };
 		C9468EFF1835CDB400240F3D /* MKTG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKTG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9468F021835CDB400240F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9468F041835CDB400240F3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +135,7 @@
 				C9468F111835CDB400240F3D /* AppDelegate.h */,
 				C9468F121835CDB400240F3D /* AppDelegate.m */,
 				C9468F141835CDB400240F3D /* Main.storyboard */,
+				C93FD5D218655D83003CBB3F /* Main_iPad.storyboard */,
 				C94C4A6E1835E885005A92B1 /* DetailViewController.h */,
 				C94C4A6F1835E885005A92B1 /* DetailViewController.m */,
 				C9468F171835CDB400240F3D /* FirstViewController.h */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93FD5D418655D83003CBB3F /* Main_iPad.storyboard in Resources */,
 				C94C4A671835E1FC005A92B1 /* theterms.plist in Resources */,
 				C9468F1E1835CDB400240F3D /* Images.xcassets in Resources */,
 				C9468F0D1835CDB400240F3D /* InfoPlist.strings in Resources */,
@@ -309,6 +313,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C93FD5D218655D83003CBB3F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93FD5D318655D83003CBB3F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		C9468F0B1835CDB400240F3D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,10 +431,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKTG-app/MKTG-Prefix.pch";
 				INFOPLIST_FILE = "MKTG-app/MKTG-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = MKTG;
 				PROVISIONING_PROFILE = "2D8341D1-4529-4F76-A6BA-DDB82FA5B89F";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -437,10 +451,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKTG-app/MKTG-Prefix.pch";
 				INFOPLIST_FILE = "MKTG-app/MKTG-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = MKTG;
 				PROVISIONING_PROFILE = "2D8341D1-4529-4F76-A6BA-DDB82FA5B89F";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -24,7 +24,7 @@
 @property (nonatomic, strong) NSString *searchTextTarget;
 @property (nonatomic, strong) NSString *searchStringTarget;
 @property int num;
-    
+
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @end

@@ -17,6 +17,7 @@
 @implementation MasterTableViewController{
     NSArray *name;
     NSArray *searchResults;
+    
 }
 
 @synthesize detailViewController = _detailViewController;
@@ -82,7 +83,8 @@
             indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
             NSString *searched = [searchResults objectAtIndex:indexPath.row];
             
-            for (int i = 0; i < 106; i++)
+#pragma mark change i < ### when new terms are added - the ### will be +1 to the last /integer Id or equal to number of plist array items
+            for (int i = 0; i < 112; i++)
             {
                 indexPath = [NSIndexPath indexPathForRow:i inSection:0];
                 NSString *n = [name objectAtIndex:indexPath.row];
@@ -99,7 +101,7 @@
             NSString *c = [comment objectAtIndex:indexPath.row];
             NSString *a = [application objectAtIndex:indexPath.row];
             
-            print = [NSString stringWithFormat:@"Definition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", d,c,a];
+            print = [NSString stringWithFormat:@"DEFINITION\n%@\n\nCOMMENTARY\n%@\n\nMKTG\n%@", d,c,a];
             
             [[segue destinationViewController] setDetailLabelContents:print];
             [[segue destinationViewController] setDetailLabelTitle:n];
@@ -114,7 +116,7 @@
             NSString *c = [comment objectAtIndex:indexPath.row];
             NSString *a = [application objectAtIndex:indexPath.row];
             
-            print = [NSString stringWithFormat:@"Definition:\n%@\n\nComment:\n%@\n\nApplication:\n%@", d,c,a];
+            print = [NSString stringWithFormat:@"DEFINITION\n%@\n\nCOMMENTARY\n%@\n\nMKTG\n%@", d,c,a];
             
             [[segue destinationViewController] setDetailLabelContents:print];
             [[segue destinationViewController] setDetailLabelTitle:n];
